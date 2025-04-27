@@ -16,7 +16,7 @@ SECONDS=0
 # 当前的路径
 pwd
 #安卓项目工程路径
-android_project_path=$(pwd)
+android_project_path=$(https://github.com/taojinliang123/lx-music-mobile)
 # 安卓apk目录路径
 apk_dir_path="$android_project_path/app/build/outputs/apk"
 # apk 路径
