@@ -20,7 +20,7 @@ envionmentVariables() {
     # 指定要打包编译的方式 : Release or Debug (默认是Release)
     build_configuration="Release"
     # fir账户的token, 这个token换成自己fir账号生成的token即可
-    firim_token="1b91e3f54c6e6b106be7afdd13674a43"
+    firim_token="_octo=GH1.1.2097120439.1747562019; cpu_bucket=lg; preferred_color_mode=light; tz=Asia%2FShanghai; _device_id=1cfed49f92f09acd8111fb6e23cb4354; saved_user_sessions=86941520%3AqBb38xA2bxQ9rSqV9RkLc45UeNbCnvoK5eageiGRLPfd41Bm; user_session=qBb38xA2bxQ9rSqV9RkLc45UeNbCnvoK5eageiGRLPfd41Bm; __Host-user_session_same_site=qBb38xA2bxQ9rSqV9RkLc45UeNbCnvoK5eageiGRLPfd41Bm; tz=Asia%2FShanghai; color_mode=%7B%22color_mode%22%3A%22auto%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; logged_in=yes; dotcom_user=taojinliang123; _gh_sess=DJyTlNVmRiUowFtpFLm9nBzuD1DB7QhR7xmjTdyjBVKlIS33De5Y2OwNpuWWpP7wpbWsI4L5%2FRlMCjJ3YwkC%2Fv5f%2Bs%2FeCB1c3sh9wKsxHjBhxsiErO%2Bkz0oEKiMUVFGhHEilbJUqU0JnFWWxFYY2VZPRx0kArg%2BmBC2P4i0gwPQRocv0jkmXIgu2heHc%2Fm6XI1P4PTEHie%2FJpPZ2z1TA8VWGDwV3J7awLOd8Ob9XYwI3OJ3nLKRI%2FNBqLh0feqLZs8TplvTyZGVmNscrop%2BvRfPyJsa3DjclF9l8Q8Q4moVUQfMnAlL4I6kFgJdT14cXMIO9szOl5DH5Y%2BRMoLoVKce0E1iWCAV7pPZBTXSTO2cg%2B6urfJjFC4vx6RbO4TTZ6vwBaW7IohbmTRlOuWiWx8vpicQGZI9Yef86fLa3Ez%2BPqIzr--ok9PO605ZrS70zhU--M%2F2LQeOKZO1FnJemzmBwpg%3D%3D"
 
     # 打包脚本文件夹路径
     script_path=$(pwd)
@@ -35,7 +35,7 @@ envionmentVariables() {
     cd ..
     cd ..
     # 工程根目录
-    project_dir=$(pwd)
+    project_dir=$(https://github.com/taojinliang123/lx-music-mobile)
     # 获取工程名称（LSBuyer）
     project_name=`find . -name *.xcodeproj | awk -F "[/.]" '{print $(NF-1)}'`
 
